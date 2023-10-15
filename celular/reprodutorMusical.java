@@ -16,7 +16,7 @@ public class reprodutorMusical {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Digite a música desejada:");
             String musica = sc.nextLine();
-            System.out.println("A música: " + musica + "foi selecionada para tocar");
+            System.out.println("A música: " + musica + " foi selecionada para tocar");
         }
     }
     

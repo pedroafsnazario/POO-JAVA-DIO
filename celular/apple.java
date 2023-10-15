@@ -20,16 +20,38 @@ Scanner sc = new Scanner(System.in);
 
 String opcao = sc.nextLine();
 
+switch (opcao) {
 
-
+case "telefone":
 telefone.atender();
 
 telefone.ligar();
 
 telefone.iniciarCorreioVoz();
+break;
 
+case "internet":
+internet.exibirPagina();
 
+internet.atualizarPagina();
 
+internet.addNovaAba();
+break;
+
+case "musica":
+musica.tocar();
+
+musica.pausar();
+
+musica.selecionar();
+break;
+
+default:
+System.out.println("Valor inserido inválido");
+System.exit(0);
+}
+
+System.exit(0);
     
 }
 
